@@ -1,0 +1,42 @@
+programa
+{
+	funcao inicio ()
+	{
+		inteiro hr1,hr2,mnt1,mnt2,duracaoH,duracaoM
+        escreva("Digite a hora de início do jogo (Primeiro a hora depois os minutos): ")      
+		leia(hr1)
+		leia(mnt1)
+		escreva("\n Quando o jogo terminará?(1° Hora depois minutos): ")
+		leia(hr2)
+		leia(mnt2)
+		se(hr2 >= hr1 )
+		{
+			duracaoH = hr2 - hr1 }
+		senao
+		  {
+		  	duracaoH = (hr2 - hr1) + 24
+		  }
+		  
+          se( mnt2 >= mnt1 )
+		{
+			duracaoM = mnt2 - mnt1
+		}
+		senao
+		{
+		  duracaoM = (mnt2 - mnt1) + 60
+		  duracaoH-- }
+		 
+		escreva("O jogo durará: ",duracaoH,"h:",duracaoM)
+		
+		 
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}
