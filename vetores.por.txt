@@ -1,0 +1,17 @@
+programa
+{
+	funcao inicio ()
+	{
+		inteiro idade[10] = {29,7,39,40,0,17,15,4,61,11}
+		escreva(idade[4])
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}
